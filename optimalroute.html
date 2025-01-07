@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Route</title>
+    <link rel="stylesheet" href="optimalroute.css">
+    <link
+    rel="stylesheet"
+    media="all"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item" id="home">
+                    <a href="#home" class="nav-link"><img src="Img/Logo.png" class="Logo" alt="Logo"></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#ship" class="nav-link" id="nav-link">Shipping ∨</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#track" class="nav-link" id="nav-link">Tracking ∨</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a href="#sub" class="nav-link" id="nav-link">Locations ∨</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sub" class="nav-link" id="nav-link">Support ∨</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sub" class="sign-up" id="nav-link">Sign Up or Log In</a>
+                </li> 
+          </ul>
+        </nav>
+    </header>
+
+    <div class="main-1">
+        <h2>Optimal Route</h2>
+        <div class="section-1">
+            <!-- Your existing section content goes here -->
+        </div>
+    </div>
+
+    <!-- Results Page Layout -->
+    <div class="results">
+        <h2>Optimal Route(s) Results</h2>
+        
+        <div class="routes">
+            <div class="route-option">
+                <h3>Route 1 (Fastest)</h3>
+                <p><strong>Estimated Time:</strong> 1 hour 25 minutes</p>
+                <p><strong>Distance:</strong> 30 km</p>
+                <p><strong>Traffic Information:</strong> Moderate Traffic</p>
+                <p><strong>Weather Conditions:</strong> Clear skies, 28°C</p>
+                <div id="route1-map" class="route-map"></div>
+                <button>Show Turn-by-Turn Directions</button>
+                <p><strong>Emissions:</strong> 120g CO2/km</p>
+            </div>
+
+            <div class="route-option">
+                <h3>Route 2 (Shortest)</h3>
+                <p><strong>Estimated Time:</strong> 1 hour 40 minutes</p>
+                <p><strong>Distance:</strong> 25 km</p>
+                <p><strong>Traffic Information:</strong> Light Traffic</p>
+                <p><strong>Weather Conditions:</strong> Light rain, 25°C</p>
+                <div id="route2-map" class="route-map"></div>
+                <button>Show Turn-by-Turn Directions</button>
+                <p><strong>Emissions:</strong> 105g CO2/km</p>
+            </div>
+
+            <div class="route-option">
+                <h3>Route 3 (Least Emissions)</h3>
+                <p><strong>Estimated Time:</strong> 1 hour 50 minutes</p>
+                <p><strong>Distance:</strong> 35 km</p>
+                <p><strong>Traffic Information:</strong> Heavy Traffic</p>
+                <p><strong>Weather Conditions:</strong> Cloudy, 22°C</p>
+                <div id="route3-map" class="route-map"></div>
+                <button>Show Turn-by-Turn Directions</button>
+                <p><strong>Emissions:</strong> 90g CO2/km</p>
+            </div>
+        </div>
+
+        
+
+        <div class="recommendations">
+            <h3>Recommendations</h3>
+            <p><strong>Optimal Route:</strong> Based on your selection, Route 3 is the most eco-friendly, though it may take a little longer.</p>
+            <p><strong>Suggestions:</strong> Consider using alternate routes during low traffic hours to further reduce emissions.</p>
+        </div>
+    </div>
+    
+    <div class="main-3">
+        <div class="about" id="about">
+            <div class="inAbout">
+            <p class="aboutInfo">
+                <span style="color:blueviolet; font-weight:bold; padding-bottom: 15px;">OUR COMPANY</span>
+                About FedEx<br>
+                Our Portfolio<br>
+                Investor Relations<br>
+                Careers<br>
+                FedEx Blog<br>
+                Corporate Responsibility<br>
+                Newsroom<br>
+                Contact Us<br>
+            </p>
+            <p class="aboutInfo">
+                <span style="color:blueviolet; font-weight:bold; padding-bottom: 15px;">MORE FROM FEDEX</span>
+
+                FedEx Compatible<br>
+                FedEx Developer Portal<br>
+                FedEx Logistics<br>
+                FedEx Cross Border<br>
+                ShopRunner<br>
+            </p>
+            <p class="aboutInfo">
+                <span style="color:blueviolet; font-weight:bold; padding-bottom: 15px;">LANGUAGE</span>
+
+                United States<br>
+                English
+            </p>
+            </div>
+            <hr style="margin: 40px 0px;">
+            <div class="social-links">
+                <p style="margin: 15px; color: blueviolet; font-family: monospace; font-size: small; font-weight: bold;">FOLLOW FEDEX</p>
+                <a href="#" class="links1"><i class="fa fa-envelope" id="fa1"></i></a>
+                <a href="#" class="links2"><i class="fa fa-facebook" id="fa2"></i></a>
+                <a href="#" class="links3"><i class="fa fa-twitter" id="fa3"></i></a>
+                <a href="#" class="links4"><i class="fa fa-instagram" id="fa4"></i></a>
+                <a href="#" class="links5"><i class="fa fa-linkedin" id="fa5"></i></a>
+                <a href="#" class="links6"><i class="fa fa-youtube" id="fa6"></i></a>
+                <a href="#" class="links7"><i class="fa fa-pinterest" id="fa7"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="sub">
+        <p class="copyright">&copy; FedEx 1995-2023</p>
+        <ul class="foot">
+            <li class="foot-item">
+                <a href="#sub" class="foot-link" id="nav-link">Site Map |</a>
+              </li>
+              <li class="foot-item">
+                  <a href="#sub" class="foot-link" id="nav-link">Terms of Use |</a>
+              </li>
+              <li class="foot-item">
+                  <a href="#sub" class="foot-link" id="nav-link">Privacy & Security</a>
+              </li> 
+        </ul>
+    </footer>
+</body>
+</html>
+
+

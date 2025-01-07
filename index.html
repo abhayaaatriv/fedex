@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FedEx Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    media="all"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+<body>
+    <header>
+        <nav class="navbar" >
+            <ul>
+                <li class="nav-item" id="home">
+                    <a href="#home" class="nav-link"><img src="Img/Logo.png" class="Logo" alt="Logo"></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#ship" class="nav-link" id="nav-link">Shipping ∨</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#track" class="nav-link" id="nav-link">Tracking ∨</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#sub" class="nav-link" id="nav-link">Support ∨</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sub" class="nav-link" id="nav-link">Account ∨</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sub" class="sign-up" id="nav-link">Sign Up or Log In</a>
+                </li> 
+          </ul>
+        </nav>
+    </header>
+    <!--Hero section-->
+    <div class="top" id="ship">
+        <h1>Welcome to FedEx</h1>
+        <br>
+        <section class="boxes">
+        <div class="box-1">
+            <img class="R&T" src="Img/R&S.png" alt="RT-icon">
+            <p class="p1">RATE & SHIP</p>
+        </div>
+        <div class="box-2">
+            <img class="track" src="Img/202d2a1f-1b0b-4467-b387-e32f95e88e2a.png" alt="track-icon">
+            <p class="p2">ROUTE OPTIMISATION</p>
+        </div>
+        <div class="box-3">
+            <img class="location" src="Img/Location.jpeg" alt="location-icon">
+            <p class="p3">LOCATIONS</p>
+        </div>
+        </section>
+         
+        <div class="tracking">
+           
+            <label for="vehicle-type">Select Vehicle Type</label>
+            <select id="vehicle-type">
+                <option value="" disabled selected>Vehicle Type</option>
+                <option value="car">Car</option>
+                <option value="truck">Truck</option>
+                <option value="van">Van</option>
+            </select>
+        
+            <label for="fuel-type">Select Fuel Type</label>
+            <select id="fuel-type">
+                <option value="" disabled selected>Fuel Type</option>
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="electric">Electric</option>
+                <option value="electric">Hybrid</option>
+            </select>
+
+            <label for="vehicle-id">Enter Start Destination</label>
+            <input id="vehicle-id" type="text" placeholder="Start Coordinates">
+            <label for="vehicle-id">Enter Final Destination</label>
+            <input id="vehicle-id" type="text" placeholder="Final Coordinates">
+        
+            <a href="optimalroute.html">
+                <div class="btn">
+                    Calculate Optimal Route
+                </div>
+            </a>
+            
+            
+        </div>
+        
+        
+        
+        <div class="help">
+            <p>Enhance Travel Efficiency | Reduce Fuel Consumption | Improve Productivity</p>
+        </div>
+    </div>
+    <div class="main-1">
+        <h2>Manage your shipments and returns</h2>
+        <div class="section-1">
+        
+        <div class="sec-1">
+            <img class="icon1" src="Img/icon_courier_purple.png" alt="courier-icon">
+            <p>
+                DROP OF A PACKAGE
+            </p>
+        </div>
+        <div class="sec-2">
+            <img class="icon2" src="Img/icon_delivery_purple.png" alt="delivery-icon">
+            <p>
+                REDIRECT A PACKAGE
+            </p>
+        </div>
+        <div class="sec-3">
+            <img class="icon3" src="Img/retail-services.svg" alt="retail-icon">
+            <p>
+                STORE HOURS AND SERVICES
+            </p>
+        </div>
+        <div class="sec-4">
+            <img class="icon4" src="Img/icon_alert_purple_lg.png" alt="icon">
+            <p>
+                SERVICE ALERTS
+            </p>
+        </div>
+        <div class="sec-5">
+            <img class="icon5" src="Img/icon_returns_purple.png" alt="icon">
+            <p>
+                RETURN A PACKAGE
+            </p>
+        </div>
+        </div>
+        <div class="section-2">
+            <h2>Reliable shipping on your schedule</h2>
+        <section class="scndSection">
+            <div class="sec-2-content1">
+                <p class="schedule">
+                    <img class="img1" src="Img/We pick up.jpeg" alt="icon">
+                    <span class="span-1"><b>We pick up. You save time.</b></span><br>
+                        Let us come to your home or business to pick up
+                        your package. It's easy to schedule a one-time
+                        pickup online. If you have recurring delivery needs,
+                        plan ahead with regular pickups.
+                    <span class="span-2">SCHEDULE A PICKUP</span> 
+                </p>
+            </div>
+            <div class="sec-2-content2">
+                <p class="schedule">
+                    <img class="img2" src="Img/drop off.jpeg" alt="icon">
+                    <span class="span-1"><b>Drop off packages while you shop.</b></span><br>
+                    If you're out and about, combine your shopping
+                    and shipping. Drop off packages at thousands of
+                    locations, including FedEx Office, Dollar General,
+                    Walgreens, and select grocery stores.
+                    <span class="span-2">FIND LOCATIONS</span>
+                </p>
+            </div>
+        </section>
+        </div>
+    </div>
+    <div class="main-2">
+        <h2>We're behind your small business</h2>
+    <section class="thrdSection">
+        <div class="sec-3-content1">
+                <img class="img3" src="Img/Set Up Shop.jpeg" alt="icon">
+            <div class="schedule2">
+                <span class="span-1"><b>Set your small business up for success</b></span><br>
+                Visit the updated Small Business Center for the latest resources from experts and peers. Find shipping tools to improve deliveries for you and your customers.<br>
+                <span class="span-2">FIND TIPS AND TOOLS</span> 
+            </div>
+        </div>
+        <div class="sec-3-content2">
+            <img class="img4" src="Img/Thousands of Prdcts.jpeg" alt="icon">
+            <p class="schedule2">
+                <span class="span-1"><b>Thousands of packages at a glance</b></span><br>
+                It’s simple to manage up to 20,000 shipments and run reports in your advanced tracking dashboard. View estimated delivery windows to keep customers informed.<br>
+                <span class="span-2">TRACK FOR FREE</span>
+            </p>
+        </div>
+    </section>
+    </div>
+
+    <div class="money-back">
+        <p>
+            <span><b>FedEx money-back guarantee</b></span><br>
+            We offer a money-back guarantee for select services. This guarantee may be suspended, modified, or revoked. Please check money-back guarantee for the latest status of our money-back guarantee.
+            <br><span style="font-size: small;">* More than 50% of the U.S. population on Sundays.</span>
+        </p>
+    </div>
+
+    <div class="main-3">
+        <div class="about" id="about">
+            <div class="inAbout">
+            <p class="aboutInfo">
+                <span style="color:blueviolet; font-weight:bold; padding-bottom: 15px;">OUR COMPANY</span>
+                About FedEx<br>
+                Our Portfolio<br>
+                Investor Relations<br>
+                Careers<br>
+                FedEx Blog<br>
+                Corporate Responsibility<br>
+                Newsroom<br>
+                Contact Us<br>
+            </p>
+            <p class="aboutInfo">
+                <span style="color:blueviolet; font-weight:bold; padding-bottom: 15px;">MORE FROM FEDEX</span>
+
+                FedEx Compatible<br>
+                FedEx Developer Portal<br>
+                FedEx Logistics<br>
+                FedEx Cross Border<br>
+                ShopRunner<br>
+            </p>
+            <p class="aboutInfo">
+                <span style="color:#8a2be2; font-weight:bold; padding-bottom: 15px;">LANGUAGE</span>
+
+                United States<br>
+                English
+            </p>
+            </div>
+            <hr style="margin: 40px 0px;">
+            <div class="social-links">
+                <p style="margin: 15px; color: blueviolet; font-family: monospace; font-size: small; font-weight: bold;">FOLLOW FEDEX</p>
+                <a href="#" class="links1"><i class="fa fa-envelope" id="fa1"></i></a>
+                <a href="#" class="links2"><i class="fa fa-facebook" id="fa2"></i></a>
+                <a href="#" class="links3"><i class="fa fa-twitter" id="fa3"></i></a>
+                <a href="#" class="links4"><i class="fa fa-instagram" id="fa4"></i></a>
+                <a href="#" class="links5"><i class="fa fa-linkedin" id="fa5"></i></a>
+                <a href="#" class="links6"><i class="fa fa-youtube" id="fa6"></i></a>
+                <a href="#" class="links7"><i class="fa fa-pinterest" id="fa7"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="sub">
+        <p class="copyright">&copy; FedEx 1995-2023</p>
+        <ul class="foot">
+            <li class="foot-item">
+                <a href="#sub" class="foot-link" id="nav-link">Site Map |</a>
+              </li>
+              <li class="foot-item">
+                  <a href="#sub" class="foot-link" id="nav-link">Terms of Use |</a>
+              </li>
+              <li class="foot-item">
+                  <a href="#sub" class="foot-link" id="nav-link">Privacy & Security</a>
+              </li> 
+        </ul>
+    </footer>
+</body>
+</html>
